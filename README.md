@@ -2,7 +2,9 @@
 <div align="center">>
 <img src="PICS1.png" alt="LogDefender Architecture" width="500"/>
 </div>
-**LogDefender** is a lightweight and modular log analysis system designed to detect suspicious behaviors in logs through rule-based parsing and dynamic data visualization.
+
+
+##LogDefender is a lightweight and modular log analysis system designed to detect suspicious behaviors in logs through rule-based parsing and dynamic data visualization.
 
 ---
 
