@@ -1,6 +1,6 @@
 # 🔐 LogDefender — Smart Log Analysis & Threat Detection
 
-![LogDefender Architecture](PICS1.png)
+<img src="PICS1.png" alt="LogDefender Architecture" width="600"/>
 
 **LogDefender** is a lightweight and modular log analysis system designed to detect suspicious behaviors in logs through rule-based parsing and dynamic data visualization.
 
