@@ -1,10 +1,10 @@
 # 🔐 LogDefender — Smart Log Analysis & Threat Detection
-<div align="center">>
+<div align="center">
 <img src="PICS1.png" alt="LogDefender Architecture" width="500"/>
 </div>
 
 
-##LogDefender is a lightweight and modular log analysis system designed to detect suspicious behaviors in logs through rule-based parsing and dynamic data visualization.
+LogDefender is a lightweight and modular log analysis system designed to detect suspicious behaviors in logs through rule-based parsing and dynamic data visualization.
 
 ---
 
@@ -29,12 +29,12 @@ LogDefender/
 │   ├── bar_rules.html        # Interactive bar chart of alert rules
 │   └── treemap_gravite_rules.html # Interactive treemap of severity per rule
 │
-├── DATAFARM.py               # Optional advanced analysis script: plots & dashboards
-├── docs/
-│   └── assets/
-│       └── LogDefender_Architecture.png  # Project architecture diagram
+├── DATAFARM.py               # Optional advanced analysis script: =
+├── README.md                 # This file
 │
-└── README.md                 # This file
+├──PICS1.png
+├──PICS2.png
+├──PICS3.png
 ```
 
 ---
@@ -54,7 +54,10 @@ LogDefender/
 ```bash
 git clone https://github.com/your-username/LogDefender.git
 cd LogDefender
-pip install -r requirements.txt
+
+pip install pandas matplotlib plotly
+
+
 ```
 
 > Make sure you are using **Python 3.8+**
@@ -121,15 +124,7 @@ You can add as many as you like. Levels: `info`, `warning`, `medium`, `high`, `c
 - Visualize trends in log-based attacks
 - Quickly analyze raw Apache/Nginx logs
 
----
 
-## 🖼️ Architecture Diagram
-
-<p align="center">
-  <img src="docs/assets/LogDefender_Architecture.png" width="80%">
-</p>
-
----
 
 ## 👤 Author
 
