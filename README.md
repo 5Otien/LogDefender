@@ -1,6 +1,6 @@
 # 🔐 LogDefender — Smart Log Analysis & Threat Detection
 
-![LogDefender Architecture](docs/assets/LogDefender_Architecture.png)
+![LogDefender Architecture](PICS1.png)
 
 **LogDefender** is a lightweight and modular log analysis system designed to detect suspicious behaviors in logs through rule-based parsing and dynamic data visualization.
 
@@ -92,7 +92,8 @@ You will get:
 - 📈 `bar_rules.html` — number of alerts per rule  
 - 🌳 `treemap_gravite_rules.html` — distribution by level + rule  
 - 🖼️ PNG export (optional)
-
+![bar_rules](PICS2.png)
+![treemap_gravite_rules](PICS3.png)
 ---
 
 ## 🧩 Custom Rules
