@@ -1,0 +1,4 @@
+log_folder: logs
+rule_folder: rules
+output_folder: reports
+alert_level: high

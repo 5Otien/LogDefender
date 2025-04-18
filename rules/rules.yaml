@@ -1,0 +1,40 @@
+rules:
+  - name: SSH brute force
+    pattern: "Failed password"
+    level: high
+
+  - name: SSH access as root
+    pattern: "Accepted password for root"
+    level: critical
+
+  - name: Invalid user login
+    pattern: "Invalid user"
+    level: medium
+
+  - name: SSH session closed
+    pattern: "Connection closed by"
+    level: info
+
+  - name: SQL injection attempt
+    pattern: "' or 1=1 --"
+    level: critical
+
+  - name: Access to admin panel
+    pattern: "GET /admin"
+    level: high
+
+  - name: WordPress login attempt
+    pattern: "GET /wp-login.php"
+    level: medium
+
+  - name: Suspicious user-agent curl
+    pattern: "curl"
+    level: warning
+
+  - name: Suspicious user-agent sqlmap
+    pattern: "sqlmap"
+    level: critical
+
+  - name: Nmap scan detected
+    pattern: "Nmap"
+    level: high
